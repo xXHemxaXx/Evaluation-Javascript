@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 250px auto;
+    .logo{
+        background-color: #251548;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+        .container-img{
+            display: flex;
+            justify-content: center;
+        }
+        .darkmode{
+            svg{
+                width: 50px;
+                height: 50px;
+                path{
+                    &:hover{
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        header{
+            background-color: #faf5fc;
+            padding: 30px 0 30px 30px;
+            .container-navbar{
+                display: flex;
+                width: 800px;
+                justify-content: space-evenly;
+                a{
+                    text-decoration: none;
+                    text-transform: none;
+                    color: #7a1a9a;
+                    font-size: 20px;
+                    &:hover{
+                        color: #7f00bb;
+                    }
+                    &:focus{
+                        color: #7f00bb;
+                        font-weight: bold;
+                    }
+                }
+            }
+            
+        }
+        main{
+            .container-league{
+                display: flex;
+                width: 320px;
+                background-color: #f5e7fa;
+                border-radius: 0 0 30px 0;
+                .pink-light{
+                    position: relative;
+                    margin-left: 160px;
+                }
+                .pink-dark{
+                    position: absolute;
+                    background-color: #f6deff;
+                    border-radius: 0 0 30px 0;
+                    padding: 0 40px;
+                }
+            }
+            .container-Paris{
+                .container-VxD{
+                    display: flex;
+                    width: 200px;
+                    justify-content: space-around;
+                    margin-left: 480px;
+                }
+                .container-club-de-foot{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 0 0 70px;
+                    width: 620px;
+                    padding: 0 10px;
+                    &:hover{
+                        background-color: #ffe9ff;
+                        border-radius: 15px;
+                    }
+                    .container-club-de-foot-nom{
+                        width: 400px;
+                    }
+                    .container-button{
+                        display: flex;
+                        width: 200px;
+                        justify-content: space-around;
+                        button{
+                            width: 50px;
+                            height: 40px;
+                            border-radius: 5px;
+                            border: 1px solid grey;
+                            &:hover{
+                                border: 1px solid #a818c0;
+                                background-color: #f9e9ff;
+                            }
+                        }
+                        .focusButton{
+                            border: 1px solid #a818c0;
+                            background-color: #f9e9ff;
+                        }
+                    }
+                }
+            }
+            .img{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+            .scroll{
+                overflow-y: scroll;
+                background-color: #fff;
+                padding: 10px;
+                max-height: 275px;
+                .container-match{
+                    display: flex;
+                    justify-content: space-around;
+                    .description{
+                        h3{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin: 0 0 10px 0;
+                        }
+                        p{
+                            color: grey;
+                            font-size: small;
+                        }
+                    }
+                    .delete{
+                        display: flex;
+                        margin-top: 10px;
+                        p{
+                            margin: 0;
+                            font-size: 18px;
+                        }
+                        svg{
+                            width: 30px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+            .container-bets{
+                position: fixed;
+                width: 300px;
+                bottom: 0;
+                right: 50px;
+                .bets{
+                    display: flex;
+                    justify-content: center;
+                    color: #fff;
+                    background-color: #6a1180;
+                    border-radius: 30px 30px 0 0;
+                }
+                .price{
+                    background-color: #fafafa;
+                    padding: 30px;
+                    .container-mise{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        input{
+                            width: 70px;
+                            height: 25px;
+                            border: 2px ridge #000;
+                            border-radius: 5px;
+                        }
+                    }
+                    .container-totale{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around
+                    }
+                    .container-gain{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around
+                    }
+                }
+            }
+        }
+    }
+}

@@ -6,8 +6,118 @@
     <title>JS basics</title>
 </head>
 <body>
-    
-
+    <!-- Logo-container -->
+    <section class="logo">
+        <div class="container-img-logo">
+            <img src="./img/logo.webp" alt="logo">
+        </div>
+        <div class="darkmode">
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- Header(navbar) + main  -->
+    <section class="content">
+        <!-- Header(navbar) -->
+        <header>
+            <div class="container-navbar">
+                <a href="#">Football</a>
+                <a href="#">Tennis</a>
+                <a href="#">Basketball</a>
+                <a href="#">Hockey sur glace</a>
+                <a href="#">Boxe</a>
+                <a href="#">E-Sport</a>
+            </div>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Container League -->
+            <section class="container-league">
+                <div class="pink-dark">
+                    <p>Belgique</p>
+                </div>
+                <div class="pink-light">
+                    <p>Jupiler Pro League</p>
+                </div>
+            </section>
+            <!-- Container Paris -->
+            <section class="container-Paris">
+                <!-- Container Visiteur X Domicile -->
+                <div class="container-VxD">
+                    <div>
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <p>x</p>
+                    </div>
+                    <div>
+                        <p>2</p>
+                    </div>
+                </div>
+                <!-- Parent -->
+                <div id="container-liste-club-foot">
+                    <!-- Enfant -->
+                    <!-- <div class="container-club-de-foot">
+                        <div class="container-club-de-foot-nom">
+                            <p><span>Domicile</span> - <span>Visiteur</span></p>
+                        </div>
+                        <div class="container-button">
+                            <button>3.2</button>
+                            <button>3.4</button>
+                            <button>2.2</button>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <section class="img">
+                <div class="container-img-bg">
+                    <img src="./img/bg1.webp" alt="bg1">
+                </div>
+            </section>
+            <!-- Container-Bets -->
+            <section class="container-bets">
+                
+                <div class="bets">
+                    <p>Your Bets<span>(0)</span></p>
+                </div>
+                <!-- Container-Scroll -->
+                <div class="scroll">
+                    <div class="container-match">
+                        <div class="description">
+                            <h3>paris</h3>
+                            <p><span>Domicile</span> - <span>Visiteur</span></p>
+                        </div>
+                        <div class="delete">
+                            <p>3.2</p>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-Price -->
+                <div class="price">
+                    <div class="container-mise">
+                        <p>Votre mise</p>
+                        <input type="number">
+                    </div>
+                    <div class="container-totale">
+                        <p>Cote totale</p>
+                        <p><strong>11.78</strong></p>
+                    </div>
+                    <div class="container-Gain">
+                        <p>Gain potentiel</p>
+                        <p><strong>0€</strong></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
 
     <script src="js/index.js"></script>
 </body>
