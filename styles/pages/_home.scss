@@ -84,6 +84,10 @@ body{
                         background-color: #ffe9ff;
                         border-radius: 15px;
                     }
+                    .focuscontainer-club-de-foot{
+                        background-color: #ffe9ff;
+                        border-radius: 15px;
+                    }
                     .container-club-de-foot-nom{
                         width: 400px;
                     }
@@ -112,6 +116,7 @@ body{
                 position: absolute;
                 right: 0;
                 bottom: 0;
+                z-index: -1;
             }
             .scroll{
                 overflow-y: scroll;
