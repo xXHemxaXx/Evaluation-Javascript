@@ -48,7 +48,9 @@ fetch('js/datas.json')
         let btns = document.querySelectorAll(".btn")
         containerListeClub.addEventListener('click', function(){
             btns.forEach(btn => {
-                
+                btn.addEventListener('click' function name(params) {
+                    
+                })
             });
         })
     })
